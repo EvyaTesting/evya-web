@@ -622,7 +622,7 @@ useEffect(() => {
 
         {/* Action Buttons */}
         <div style={styles.actionButtons}>
-          {/* <button
+           <button
             style={styles.actionButton}
             onClick={() => navigate("/mapsearch")}
             title="Search"
@@ -636,7 +636,7 @@ useEffect(() => {
             title="View list"
           >
             <FaList style={styles.actionIcon} />
-          </button> */}
+          </button> 
           
           <button
             style={styles.actionButton}
