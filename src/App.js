@@ -24,7 +24,7 @@ function App() {
       
       <Routes>
         {/* Default route */}
-        <Route path="/mapsection" element={<MapSection/>}/>
+        <Route path="/mapsections" element={<MapSection/>}/>
         <Route path="/map" element={<MapsScreen />} />
         <Route path="/mapsearch" element={<MapSearch/>}/>
         <Route path="/route" element={<Routescreen />} />
